@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_homepage"
+            android:icon="@mipmap/home2512"
+            android:title="Homepage" />
+        <item
+            android:id="@+id/nav_transaction"
+            android:icon="@mipmap/transaction_512"
+            android:title="Transaction" />
+        <item
+            android:id="@+id/nav_backup"
+            android:icon="@mipmap/cloud_upload2_2_512"
+            android:title="Back Up" />
+    </group>
+</menu>
